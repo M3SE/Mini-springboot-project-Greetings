@@ -60,3 +60,21 @@ This project is a simple Spring Boot application that demonstrates the basics of
            return "Hello, World!";
        }
    }
+
+## Documentation:
+1. **Start the Application:**
+ - Open your terminal or use your IDE and navigate to the root directory of the project.
+ - Click "Run" on the GreetingsminispringbootApplication
+ - The application will start and listen on http://localhost:8080.
+
+2. **Test the Application:**
+- Using Postman
+   - Open Postman and create a new GET request to http://localhost:8080/greeting.
+   - Send the request, and you should receive the message "Hello, World!" in the response.
+  
+- Using Curl
+   - You can use the following curl command in your terminal if you wanted also:
+   ````
+  curl http://localhost:8080/greeting
+  ````
+   - You should see the response `"Hello, World!"`
